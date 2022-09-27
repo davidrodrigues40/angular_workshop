@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   hero = new hero();
 
   ngOnInit(): void {
-    this.hero.realName = 'Clark Kent';
+    this.hero.realName = 'Clark J Kent';
     this.hero.heroName = 'Superman';
   }
 }
